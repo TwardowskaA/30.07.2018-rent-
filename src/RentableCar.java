@@ -23,4 +23,8 @@ public class RentableCar extends Car implements Rentable {
         return person != null;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "Osoba" + " " + person;
+    }
 }

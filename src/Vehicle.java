@@ -46,10 +46,7 @@ public abstract class Vehicle implements  Movable {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "nazwa='" + nazwa + '\'' +
-                ", rocznik=" + rocznik +
-                ", kierunek='" + kierunek + '\'' +
-                '}';
+        return "Nazwa" + " " + nazwa + " " + "Rocznik" + " " + rocznik + " " + "Kierunek" + " " + kierunek + " ";
+
     }
 }
